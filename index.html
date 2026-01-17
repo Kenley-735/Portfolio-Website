@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kenley Phrankey | Flask & Data Visualization</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header class="reveal">
+    <h1>Kenley Phrankey</h1>
+    <p class="subtitle">
+        14 y/o Student Developer • Flask & Data Visualization
+    </p>
+
+    <div class="actions">
+        <a href="https://github.com/Kenley-735" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/KenleyPhrankey" target="_blank">LinkedIn</a>
+    </div>
+
+    <button id="themeToggle">🌙 Dark Mode</button>
+</header>
+
+<section class="reveal">
+    <h2>About Me</h2>
+    <p>
+        I’m a 14-year-old student developer focused on building clean, data-driven
+        web applications using Flask and Python. I learn by building real projects
+        and sharing my progress publicly.
+    </p>
+</section>
+
+
+<section class="reveal">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>📊 DataLens</h3>
+        <p>
+            A Flask web app that converts CSV files into interactive dashboards
+            using Pandas and Plotly.
+        </p>
+
+        <div class="project-links">
+            <a href="https://datalens.onrender.com" target="_blank">
+                Live Demo
+            </a>
+            <a href="https://github.com/Kenley-735/datalens" target="_blank">
+                Source Code
+            </a>
+        </div>
+
+        <span>Flask • Pandas • Plotly</span>
+    </div>
+
+    <div class="project">
+        <h3>🌐 Developer Portfolio</h3>
+        <p>
+            A clean, animated Flask portfolio designed to showcase projects
+            and skills professionally.
+        </p>
+
+        <div class="project-links">
+            <a href="https://Kenley-735.github.io" target="_blank">
+                Live Site
+            </a>
+            <a href="https://github.com/Kenley-735/portfolio_site" target="_blank">
+                Source Code
+            </a>
+        </div>
+
+        <span>Flask • HTML • CSS</span>
+    </div>
+</section>
+
+
+<footer class="reveal">
+    <p>Built with Flask & Python • Learning in Public</p>
+</footer>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
